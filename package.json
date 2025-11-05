@@ -1,6 +1,6 @@
 {
   "name": "@kbqtech/ghana-clickable-map",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A reusable, interactive map component for Ghana's 16 regions",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -38,7 +38,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bamfokbq/ghana-clickable-map"
+    "url": "https://github.com/bamfokbq/ghana-clickable-map-package"
   },
   "peerDependencies": {
     "leaflet": "^1.9.0",

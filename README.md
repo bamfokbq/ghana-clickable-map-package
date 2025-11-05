@@ -373,8 +373,8 @@ MIT © [KBQ Tech](https://github.com/bamfokbq)
 
 ## Repository
 
-- **GitHub:** [https://github.com/bamfokbq/ghana-clickable-map](https://github.com/bamfokbq/ghana-clickable-map)
-- **Issues:** [https://github.com/bamfokbq/ghana-clickable-map/issues](https://github.com/bamfokbq/ghana-clickable-map/issues)
+- **GitHub:** [https://github.com/bamfokbq/ghana-clickable-map-package](https://github.com/bamfokbq/ghana-clickable-map-package)
+- **Issues:** [https://github.com/bamfokbq/ghana-clickable-map-package/issues](https://github.com/bamfokbq/ghana-clickable-map-package/issues)
 - **NPM:** [https://www.npmjs.com/package/@kbqtech/ghana-clickable-map](https://www.npmjs.com/package/@kbqtech/ghana-clickable-map)
 
 ## Contributing
@@ -383,7 +383,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/bamfokbq/ghana-clickable-map/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue](https://github.com/bamfokbq/ghana-clickable-map-package/issues) on GitHub.
 
 ---
 
