@@ -1,0 +1,57 @@
+{
+  "name": "@kbqtech/ghana-clickable-map",
+  "version": "1.0.0",
+  "description": "A reusable, interactive map component for Ghana's 16 regions",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --external react --external react-dom --external next --external leaflet --external react-leaflet",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "prepublishOnly": "npm run build",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "ghana",
+    "map",
+    "react",
+    "leaflet",
+    "interactive",
+    "regions",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bamfokbq/ghana-clickable-map"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.9.0",
+    "next": "^13.0.0 || ^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-leaflet": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@types/react": "^18.3.26",
+    "@types/react-dom": "^18.3.7",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}

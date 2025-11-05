@@ -1,0 +1,18 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.gitignore
+
+# Development
+node_modules/
+.DS_Store
+*.log
+
+# Keep these
+!README.md
+!LICENSE
+!dist/
